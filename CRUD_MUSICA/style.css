@@ -1,0 +1,27 @@
+.fondo{
+    height: 100vh;
+    background-image: url(images/fondo3.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#input-grupo, #input-grupo-2, {
+    border: 2px solid white;
+    border-radius: 10px;
+    /* display: none; */
+    /* display: flex; */
+
+}
+
+#container-grupo-2, #container-grupo, #container-grupo-3{
+    display: none;
+}
+#grupos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    
+}
