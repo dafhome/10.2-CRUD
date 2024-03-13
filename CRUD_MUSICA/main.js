@@ -1,13 +1,4 @@
-
 const grupos = ["The Beatles", "Led Zeppelin", "Pink Floyd", "The Rolling Stones", "Queen", "Nirvana", "The Doors", "AC/DC", "Metallica", "U2", "The Who", "Black Sabbath", "Guns N' Roses", "The Jimi Hendrix Experience", "Radiohead", "Eagles", "Deep Purple", "Santana", "The Clash", "Fleetwood Mac"];
-
-// Menú de opciones CRUD:
-
-// - opción de mostrar todos mediante .foreach()
-
-
-const pasajerosTitanic = ["Juan", "Ana", "Luis", "María", "Carlos", "Laura", "Miguel", "Sofía", "Pedro", "Isabel", "Alejandro", "Elena"];
-
 
 function ocultarTodo(){
     document.getElementById("grupos").style = "display:none;";
@@ -15,6 +6,7 @@ function ocultarTodo(){
     document.getElementById("container-grupo-2").style = "display:none;";
     document.getElementById("container-grupo-3").style = "display:none;";
 }
+
 function añadirGrupo() {
     ocultarTodo();
     document.getElementById("container-grupo").style = "display:block;border: 2px solid white;border-radius: 10px;";
@@ -32,7 +24,6 @@ function registrarGrupo() {
         document.getElementById("alert").innerHTML = '<div class="alert alert-danger mt-5" role="alert">Lo siento! El máximo de grupos épicos es 20.</div>'
     }
 }
-
 
 function añadirGrupoX() {
 
@@ -74,7 +65,6 @@ function mostrarGrupos(){
     document.getElementById("grupos").style = "border: 2px solid white;border-radius: 10px;margin:20%;padding:30px;background-color:rgba(0, 0, 0, 0.568);"
   
 }
-
 
 function buscarGrupos(){
     ocultarTodo();
